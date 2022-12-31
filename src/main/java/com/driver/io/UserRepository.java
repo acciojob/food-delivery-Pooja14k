@@ -1,4 +1,4 @@
-package com.driver.io.repository;
+package com.driver.io.entity;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
