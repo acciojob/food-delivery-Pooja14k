@@ -1,5 +1,12 @@
 package com.driver.shared.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class UserDto{
 
 	private long id;
@@ -42,7 +49,7 @@ public class UserDto{
 
 	public String getEmail() {
 		return email;
-	}
+	} // geting email
 
 	public void setEmail(String email) {
 		this.email = email;
