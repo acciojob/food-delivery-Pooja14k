@@ -1,4 +1,4 @@
-package com.driver.io.repository;
+package com.driver.io.entity;
 
 import com.driver.io.entity.OrderEntity;
 import org.springframework.data.repository.CrudRepository;
